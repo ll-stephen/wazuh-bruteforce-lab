@@ -1,0 +1,17 @@
+# Ignore OS/junk files
+*.swp
+*.tmp
+.DS_Store
+
+# Ignore large/raw Logs
+*.log
+*.log.*
+alerts.json
+ossec-alerts-*.json
+ossec-alerts-*.log
+*.gz
+
+# Ignore credentials/keys if any
+*.key
+*.pem
+secrets.*

@@ -1,0 +1,81 @@
+Timestamp: 2025-11-06T18:48:39.433-0500
+Agent: PP-Victim (192.168.56.111)
+Manager: kali
+Rule ID: 5763
+Rule Level: 10
+Description: sshd: brute force trying to get access to the system. Authentication failed.
+
+Matched log snippet:
+2025-11-06T23:40:30.207549+00:00 PP-Victim sshd: Failed password for victim from 10.0.2.100 port 65058 ssh2
+Timestamp: 2025-11-06T21:47:16.653-0500
+Agent: PP-Victim (192.168.56.111)
+Manager: kali
+Rule ID: 5551
+Rule Level: 10
+Description: PAM: Multiple failed logins in a small period of time.
+
+Matched log snippet:
+Nov 07 02:06:24 PP-Victim sshd[34561]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1  user=brutetgt
+Timestamp: 2025-11-06T21:47:16.653-0500
+Agent: PP-Victim (192.168.56.111)
+Manager: kali
+Rule ID: 5763
+Rule Level: 10
+Description: sshd: brute force trying to get access to the system. Authentication failed.
+
+Matched log snippet:
+2025-11-07T02:06:25.985819+00:00 PP-Victim sshd[34561]: Failed password for brutetgt from 192.168.56.1 port 51115 ssh2
+Timestamp: 2025-11-06T21:53:28.992-0500
+Agent: PP-Victim (192.168.56.111)
+Manager: kali
+Rule ID: 5551
+Rule Level: 10
+Description: PAM: Multiple failed logins in a small period of time.
+
+Matched log snippet:
+Nov 07 02:45:02 PP-Victim sshd[35041]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.109  user=brutetgt
+Timestamp: 2025-11-06T21:53:30.981-0500
+Agent: PP-Victim (192.168.56.111)
+Manager: kali
+Rule ID: 5763
+Rule Level: 10
+Description: sshd: brute force trying to get access to the system. Authentication failed.
+
+Matched log snippet:
+Nov 07 02:45:03 PP-Victim sshd[35041]: Failed password for brutetgt from 192.168.56.109 port 44772 ssh2
+Timestamp: 2025-11-06T21:54:22.976-0500
+Agent: PP-Victim (192.168.56.111)
+Manager: kali
+Rule ID: 5551
+Rule Level: 10
+Description: PAM: Multiple failed logins in a small period of time.
+
+Matched log snippet:
+Nov 07 02:45:54 PP-Victim sshd[35086]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.109  user=brutetgt
+Timestamp: 2025-11-06T21:54:34.986-0500
+Agent: PP-Victim (192.168.56.111)
+Manager: kali
+Rule ID: 5551
+Rule Level: 10
+Description: PAM: Multiple failed logins in a small period of time.
+
+Matched log snippet:
+Nov 07 02:46:08 PP-Victim sshd[35094]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.109  user=brutetgt
+Timestamp: 2025-11-06T21:54:36.988-0500
+Agent: PP-Victim (192.168.56.111)
+Manager: kali
+Rule ID: 5763
+Rule Level: 10
+Description: sshd: brute force trying to get access to the system. Authentication failed.
+
+Matched log snippet:
+Nov 07 02:46:10 PP-Victim sshd[35094]: Failed password for brutetgt from 192.168.56.109 port 58050 ssh2
+Timestamp: 2025-11-06T21:54:48.998-0500
+Agent: PP-Victim (192.168.56.111)
+Manager: kali
+Rule ID: 5551
+Rule Level: 10
+Description: PAM: Multiple failed logins in a small period of time.
+
+Matched log snippet:
+Nov 07 02:46:21 PP-Victim sshd[35102]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.109  user=brutetgt
